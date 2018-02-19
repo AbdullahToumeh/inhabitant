@@ -1,0 +1,232 @@
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+
+/* Front page */
+
+body {
+  font-size: 16px;
+  line-height: 1.75;
+}
+.front-header {
+  background-image: $color__layover-gradient, url("../../images/home-hero.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-stuff {
+  height: 470px;
+  padding-top: 30px;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Novecento', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  padding-bottom: 30px;
+}
+
+.home-shop-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home-shop-box {
+  width: 250px;
+  height: 270px;
+  border: 1px solid $color__lightgrey-brand;
+  border-top-width: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  padding: 15px 6px;
+  font-family: 'Merriweather', serif;
+
+  &:hover {
+    border-color: $color__orange-brand;
+  }
+
+  .shop-logos {
+    width: 65px;
+  }
+
+  a {
+    background-color: $color__teal-brand;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Novecento', sans-serif;
+
+    &:hover {
+      background-color: darken($color__teal-brand, 20%);
+    }
+  }
+
+}
+
+.home-journal {
+  height: 600px;
+}
+
+.home-adventures {
+  height: 1000px;
+}
+
+.adventures-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  width: 1000px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .canoe-adventure {
+    background-image: $color__layover-gradient, url("../../images/adventure-images/canoe-girl.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 20px;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+  .beach-adventure {
+    background-image: $color__layover-gradient, url("../../images/adventure-images/beach-bonfire.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 20px;
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+  }
+  .mountain-adventure {
+    background-image: $color__layover-gradient, url("../../images/adventure-images/mountain-hikers.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 20px;
+    grid-column: 3;
+    grid-row: 2 / 3;
+  }
+  .night-adventure {
+    background-image: $color__layover-gradient, url("../../images/adventure-images/night-sky.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 20px;
+    grid-column: 4;
+    grid-row: 2 / 3;
+  }
+
+  a {
+    padding: 10px 20px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-family: 'Novecento', sans-serif;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      background-color: $color__teal-brand;
+      border: 1px solid $color__teal-brand;
+    }
+  }
+}
+
+h2 {
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2.7em;
+  line-height: 1.4em;
+}
+
+.medium-merriweather {
+  font-size: 2.2em;
+}
+
+.small-merriweather {
+  font-size: 1.7em;
+}
+
+
+// ------------------------------------------------------------
+/* Header  */
+
+.site-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 60px;
+  border-bottom: 1px solid #a1a1a1;
+  position: fixed;
+  background-color: rgba(250,250,250,0.9);
+}
+
+.main-navigation {
+  padding-top: 8px;
+  
+  li a {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: $color__teal-brand;
+    font-family: 'Novecento', sans-serif;
+    text-transform: uppercase;
+  }
+  li a:hover {
+    color: #404040;
+  }
+}
+
+header img {
+  width: 50px;
+}
+
+
+//--------------------------------------------------------------
+/* Footer  */
+
+.site-footer {
+  height: 350px;
+  background-image: url("../../images/dark-wood.png");
+  background-size: contain;
+}
+
+//--------------------------------------------------------------
+/* Page */
+
+/*
+.site-content {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+
+
+  h2 {
+    font-family: 'Novecento', sans-serif;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+  }
+}
+
+.content-area {
+  width: 850px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.widget-area {
+  border-left: 1px solid $color__solid-border;
+  padding-left: 20px;
+  padding-right: 20px;
+} */
