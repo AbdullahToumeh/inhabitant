@@ -9,7 +9,7 @@ get_header(); ?>
 
   <!--//deleted getposts php-->
   <div class='front-header'>
-  <img src="<?php echo get_template_directory_uri() . '/images/inhabitent-logo-full.svg'; ?>" class="main-logo" alt="Inhabitent logo" />
+    <img src="<?php echo get_template_directory_uri() . '/images/inhabitent-logo-full.svg'; ?>" class="main-logo" alt="Inhabitent logo" />
   </div>
 
   <div class="shop-stuff">

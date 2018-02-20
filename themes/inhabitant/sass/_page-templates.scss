@@ -133,7 +133,7 @@ h1 {
     text-decoration: none;
 
     &:hover {
-      background-color: $color__teal-brand;
+      background-color: darken($color__teal-brand, 10%);
       border: 1px solid $color__teal-brand;
     }
   }
