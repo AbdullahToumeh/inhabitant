@@ -29,6 +29,7 @@ h1 {
   font-family: 'Novecento', sans-serif;
   font-weight: normal;
   font-style: normal;
+  font-size: 2.5em;
   padding-bottom: 30px;
 }
 
@@ -77,16 +78,16 @@ h1 {
 }
 
 .home-adventures {
-  height: 1000px;
+  height: 750px;
 }
 
 .adventures-grid {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 0.1fr;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
-  width: 1000px;
-  height: 500px;
+  width: 1100px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
 
@@ -138,6 +139,23 @@ h1 {
   }
 }
 
+.adventure-button {
+  background-color: $color__teal-brand;
+  text-transform: uppercase;
+  font-family: 'Novecento', sans-serif;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2em;
+  grid-row: 3;
+  grid-column: 1;
+
+  &:hover {
+    color: white;
+    background-color: darken($color__teal-brand, 20%);
+  }
+}
+
 h2 {
   color: white;
   font-family: 'Merriweather', serif;
@@ -170,6 +188,7 @@ h2 {
   border-bottom: 1px solid #a1a1a1;
   position: fixed;
   background-color: rgba(250,250,250,0.9);
+  z-index: 1;
 }
 
 .main-navigation {
@@ -199,34 +218,162 @@ header img {
   height: 350px;
   background-image: url("../../images/dark-wood.png");
   background-size: contain;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 55px 40px;
+  color: white;
+  font-family: $font__merriweather;
+  font-size: 15px;
+  line-height: 1.5;
+
+  h3 {
+    color: $color__orange-brand;
+    font-family: $font__novecento;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  .social-media-icons {
+    font-size: 20px;
+    letter-spacing: 10px;
+  }
+}
+
+.footer-block {
+  width: 25%;
+}
+
+.footer-logo {
+  width: 50%;
+  padding-left: 250px;
+  img {
+    width: 350px;
+  }
+}
+
+.copyright-text {
+  font-family: $font__novecento;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 40px;
 }
 
 //--------------------------------------------------------------
 /* Page */
 
-/*
-.site-content {
-  display: flex;
-  flex-direction: row;
-  padding-top: 50px;
 
+.page-id-33 {
+  .site-content {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+
+  h1 {
+    text-align: left;
+    font-weight: bold;
+  }
 
   h2 {
     font-family: 'Novecento', sans-serif;
     color: black;
     font-size: 2em;
     font-weight: bold;
+    }
   }
+
+  .content-area {
+    width: 890px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .widget-area {
+    border-left: 1px solid $color__solid-border;
+    padding-left: 20px;
+    padding-right: 20px;
+  } 
 }
 
-.content-area {
-  width: 850px;
-  padding-left: 20px;
-  padding-right: 20px;
+//------------------------------------------------------------
+/* Journal Page  */ 
+
+.blog .content-area {
+  display: flex;
+  flex-direction: row;
+
+  .widget-area {
+    border-left: 1px solid $color__solid-border;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+  }
+
+  .site-main {
+    width: 890px;
+    padding-left: 80px;
+    padding-right: 20px;
+    padding-top: 80px;
+  }
+  h2 {
+    font-family: 'Novecento', sans-serif;
+    color: black;
+    font-size: 2em;
+    font-weight: bold;
+    }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .entry-header {
+    width: 750px;
+    position: relative;
+
+    .entry-title {
+      position: absolute;
+    }
 }
 
-.widget-area {
-  border-left: 1px solid $color__solid-border;
-  padding-left: 20px;
-  padding-right: 20px;
-} */
+.entry-header {
+  width: 750px;
+  position: relative;
+  color: white;
+
+  img {
+    width: 100%;
+  }
+
+  .entry-title {
+    position: absolute;
+    top: 0px;
+    background-color: $color__teal-brand;
+    padding: 10px 20px;
+    max-width: 550px;
+    font-size: 2.5em;
+    line-height: 1;
+
+    a {
+      color: white;
+
+      &:hover {
+        color: $color__yellow-brand;
+      }
+    }
+  }
+
+  .entry-meta {
+    position: absolute;
+    bottom: 9px;
+    right: 0px;
+    background-color: $color__teal-brand;
+    padding: 3px 10px;
+    text-transform: uppercase;
+  }
+}}

@@ -62,6 +62,9 @@ get_header(); ?>
         <h2 class="small-merriweather">Star-gazing at the Night Sky</h2>
         <a href="night.php">Read More</a>
       </div>
+      <a href="more-adventures.php" class="adventure-button">More Adventures</a>
     </div>
+
+
   </div>
 <?php get_footer(); ?>
