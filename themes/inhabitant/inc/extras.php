@@ -47,3 +47,20 @@ function inhabitent_login_title() {
 }
 
 add_filter('login_headertitle', 'inhabitent_login_title');
+
+//customize the header image on the about page 
+
+function change_header_image() {
+	$image_url = CFS()->get( 'header_image' );
+	$custom_css = "
+                .about-header{
+												background-image: url('{$image_url}');
+												background-size: cover;
+												width: 100vw;
+												height: 100vh;
+                }";
+	wp_add_inline_style('inhabitant-style', $custom_css);
+}
+
+add_action('wp_enqueue_scripts', 'change_header_image');
+
