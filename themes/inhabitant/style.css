@@ -972,8 +972,22 @@ header img {
 
 .page-id-33 .widget-area {
   border-left: 1px solid #e1e1e1;
-  padding-left: 20px;
-  padding-right: 20px; }
+  padding-left: 60px;
+  padding-top: 50px; }
+  .page-id-33 .widget-area h2 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+
+.page-id-33 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Merriweather", serif; }
+
+.page-id-33 a {
+  color: #248A83;
+  text-decoration: none; }
 
 /* Journal Page  */
 .blog .content-area {
@@ -983,12 +997,16 @@ header img {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  font-family: "Merriweather", serif; }
   .blog .content-area .widget-area {
     border-left: 1px solid #e1e1e1;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 50px; }
+    padding-left: 60px;
+    padding-top: 90px; }
+    .blog .content-area .widget-area h2 {
+      font-size: 1.6em;
+      text-transform: uppercase;
+      letter-spacing: 2px; }
   .blog .content-area .site-main {
     width: 890px;
     padding-left: 80px;
@@ -1000,13 +1018,18 @@ header img {
     font-size: 2em;
     font-weight: bold; }
   .blog .content-area a {
-    color: black;
+    color: #248A83;
     text-decoration: none; }
   .blog .content-area .entry-header {
     width: 750px;
     position: relative; }
     .blog .content-area .entry-header .entry-title {
       position: absolute; }
+  .blog .content-area ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Merriweather", serif; }
   .blog .content-area .entry-header {
     width: 750px;
     position: relative;

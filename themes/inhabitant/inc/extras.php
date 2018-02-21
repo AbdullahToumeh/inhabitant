@@ -51,7 +51,16 @@ add_filter('login_headertitle', 'inhabitent_login_title');
 //customize the header image on the about page 
 
 function change_header_image() {
+	if ( !is_page_template('about.php') ) {
+		return;
+	}
+
 	$image_url = CFS()->get( 'header_image' );
+
+	if (!$image_url) {
+		return;
+	}
+
 	$custom_css = "
                 .about-header{
 												background-image: url('{$image_url}');

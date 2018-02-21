@@ -21,7 +21,7 @@ get_header(); ?>
         <div class="about-header">
           
         </div>
-        <!-- <img src="<?php echo CFS()->get( 'header_image' ); ?>"/> -->
+
         <?php the_content(); ?>
         <?php
           wp_link_pages( array(

@@ -295,10 +295,31 @@ header img {
 
   .widget-area {
     border-left: 1px solid $color__solid-border;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 60px;
+    padding-top: 50px;
+
+    h2 {
+      font-size: 1.6em;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: $font__merriweather;
   } 
+
+  a {
+    color: $color__teal-brand;
+    text-decoration: none;
+  }
+
 }
+
+
+
 
 //------------------------------------------------------------
 /* Journal Page  */ 
@@ -306,12 +327,17 @@ header img {
 .blog .content-area {
   display: flex;
   flex-direction: row;
+  font-family: $font__merriweather;
 
   .widget-area {
     border-left: 1px solid $color__solid-border;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 50px;
+    padding-left: 60px;
+    padding-top: 90px;
+    h2 {
+      font-size: 1.6em;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
   }
 
   .site-main {
@@ -328,9 +354,10 @@ header img {
     }
 
   a {
-    color: black;
+    color: $color__teal-brand;
     text-decoration: none;
   }
+
 
   .entry-header {
     width: 750px;
@@ -339,6 +366,13 @@ header img {
     .entry-title {
       position: absolute;
     }
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-family: $font__merriweather;
 }
 
 .entry-header {
