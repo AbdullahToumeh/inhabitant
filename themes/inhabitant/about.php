@@ -18,9 +18,7 @@ get_header(); ?>
       </header><!-- .entry-header -->
 
       <div class="entry-content">
-        <div class="about-header">
-          
-        </div>
+      
 
         <?php the_content(); ?>
         <?php

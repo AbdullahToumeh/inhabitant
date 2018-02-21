@@ -778,7 +778,7 @@ h1 {
       background-color: #0f3936; }
 
 .home-journal {
-  height: 600px; }
+  height: 560px; }
 
 .home-adventures {
   height: 750px; }
@@ -862,6 +862,53 @@ h2 {
 
 .small-merriweather {
   font-size: 1.7em; }
+
+.home-journal-grid {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr); }
+
+.home-journal-part {
+  width: 350px;
+  height: 400px;
+  border: 1px solid #e1e1e1; }
+  .home-journal-part img {
+    width: 350px;
+    border-bottom: 4px solid #e1e1e1; }
+  .home-journal-part p {
+    font-family: "Merriweather", serif;
+    font-size: 0.8em;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0; }
+  .home-journal-part h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    letter-spacing: 2px; }
+    .home-journal-part h3 a {
+      text-decoration: none;
+      color: #248A83; }
+      .home-journal-part h3 a:hover {
+        color: black; }
+  .home-journal-part .read-more-button {
+    padding: 10px 20px;
+    border: 1px solid black;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 0.9em; }
+    .home-journal-part .read-more-button:hover {
+      background-color: #248A83;
+      border-color: #248A83;
+      color: white; }
 
 /* Header  */
 .site-header {
@@ -1054,4 +1101,53 @@ header img {
       right: 0px;
       background-color: #248A83;
       padding: 3px 10px;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-family: "Novecento", sans-serif; }
+
+/* Shop Page  */
+.shop-page-grid {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 10px 30px; }
+  .shop-page-grid article {
+    width: 270px;
+    height: 350px;
+    border: 1px solid #e1e1e1; }
+    .shop-page-grid article img {
+      width: 270px;
+      height: 180px; }
+
+/* About Page  */
+.page-template-about h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  letter-spacing: 2px; }
+
+.page-template-about h2 {
+  color: black;
+  font-family: "Novecento", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 2px; }
+
+.page-template-about .entry-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  margin-top: 50px;
+  margin-bottom: 70px; }
+  .page-template-about .entry-content p {
+    font-family: "Merriweather", serif; }

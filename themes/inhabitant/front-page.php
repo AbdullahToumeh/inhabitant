@@ -40,7 +40,21 @@ get_header(); ?>
 
   <div class="home-journal">
     <h1>Inhabitent Journal</h1>
-    <!-- get the 3 most recent posts and display with flexbox -->
+    <div class = "home-journal-grid">
+      <?php
+        $args = array( 'post_type' => 'post', 'order' => 'DESC', 'posts_per_page' => 3 );
+        $product_posts = get_posts( $args ); // returns an array of posts
+      ?>
+      <?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
+        <div class="home-journal-part">
+        <?php /* Content from your array of post results goes here */ ?>
+          <?php the_post_thumbnail( 'medium' );  ?>
+          <p><?php the_time('j F, Y'); ?> / <?php comments_number(); ?></p>
+          <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+          <a class="read-more-button" href="<?php the_permalink(); ?>">Read More</a>
+        </div>
+      <?php endforeach; wp_reset_postdata(); ?>
+    </div>    
   </div>
 
   <div class="home-adventures">

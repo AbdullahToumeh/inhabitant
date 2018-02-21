@@ -62,11 +62,14 @@ function change_header_image() {
 	}
 
 	$custom_css = "
-                .about-header{
-												background-image: url('{$image_url}');
+                .page-template-about .entry-header{
+												background-image: linear-gradient(rgba(0,0,0, 0.3),rgba(0,0,0,0.3)), url('{$image_url}');
 												background-size: cover;
 												width: 100vw;
 												height: 100vh;
+												display: flex;
+												justify-content: center;
+												align-items: center;
                 }";
 	wp_add_inline_style('inhabitant-style', $custom_css);
 }
