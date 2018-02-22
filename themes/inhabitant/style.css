@@ -1012,6 +1012,19 @@ header img {
     font-size: 2em;
     font-weight: bold; }
 
+.page-id-33 .widget-area {
+  border-left: 1px solid #e1e1e1;
+  padding-left: 60px;
+  padding-top: 90px; }
+  .page-id-33 .widget-area h2 {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .page-id-33 .widget-area .widget p {
+    font-family: "Merriweather", serif; }
+    .page-id-33 .widget-area .widget p .day-of-week {
+      font-weight: bold; }
+
 .page-id-33 .content-area {
   width: 890px;
   padding-left: 20px;
@@ -1046,6 +1059,8 @@ header img {
       -ms-flex-direction: row;
           flex-direction: row;
   font-family: "Merriweather", serif; }
+  .blog .content-area article {
+    width: 750px; }
   .blog .content-area .widget-area {
     border-left: 1px solid #e1e1e1;
     padding-left: 60px;
@@ -1054,11 +1069,14 @@ header img {
       font-size: 1.6em;
       text-transform: uppercase;
       letter-spacing: 2px; }
+    .blog .content-area .widget-area .widget p .day-of-week {
+      font-weight: bold; }
   .blog .content-area .site-main {
     width: 890px;
     padding-left: 80px;
     padding-right: 20px;
-    padding-top: 80px; }
+    padding-top: 30px;
+    padding-bottom: 100px; }
   .blog .content-area h2 {
     font-family: 'Novecento', sans-serif;
     color: black;
@@ -1069,9 +1087,21 @@ header img {
     text-decoration: none; }
   .blog .content-area .entry-header {
     width: 750px;
-    position: relative; }
+    position: relative;
+    margin-top: 80px; }
     .blog .content-area .entry-header .entry-title {
       position: absolute; }
+  .blog .content-area a.journal-button {
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    font-family: "Novecento", sans-serif;
+    text-transform: uppercase; }
+    .blog .content-area a.journal-button:hover {
+      background-color: #248A83;
+      border-color: #248A83;
+      color: white; }
   .blog .content-area ul {
     list-style-type: none;
     padding: 0;
@@ -1097,7 +1127,7 @@ header img {
           color: #f0e4d1; }
     .blog .content-area .entry-header .entry-meta {
       position: absolute;
-      bottom: 9px;
+      bottom: 8px;
       right: 0px;
       background-color: #248A83;
       padding: 3px 10px;

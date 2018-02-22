@@ -350,6 +350,23 @@ header img {
     }
   }
 
+  .widget-area {
+    border-left: 1px solid $color__solid-border;
+    padding-left: 60px;
+    padding-top: 90px;
+    h2 {
+      font-size: 1.6em;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .widget p {
+      font-family: $font__merriweather;
+      .day-of-week {
+        font-weight: bold;
+      }
+    }
+  }
+
   .content-area {
     width: 890px;
     padding-left: 20px;
@@ -392,6 +409,11 @@ header img {
   flex-direction: row;
   font-family: $font__merriweather;
 
+  article {
+    width: 750px;
+  }
+
+
   .widget-area {
     border-left: 1px solid $color__solid-border;
     padding-left: 60px;
@@ -401,13 +423,17 @@ header img {
       text-transform: uppercase;
       letter-spacing: 2px;
     }
+    .widget p .day-of-week {
+      font-weight: bold;
+    }
   }
 
   .site-main {
     width: 890px;
     padding-left: 80px;
     padding-right: 20px;
-    padding-top: 80px;
+    padding-top: 30px;
+    padding-bottom: 100px;
   }
   h2 {
     font-family: 'Novecento', sans-serif;
@@ -425,10 +451,26 @@ header img {
   .entry-header {
     width: 750px;
     position: relative;
+    margin-top: 80px;
 
     .entry-title {
       position: absolute;
     }
+}
+
+a.journal-button {
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  font-family: $font__novecento;
+  text-transform: uppercase;
+
+  &:hover {
+    background-color: $color__teal-brand;
+    border-color: $color__teal-brand;
+    color: white;
+  }
 }
 
 ul {
@@ -467,7 +509,7 @@ ul {
 
   .entry-meta {
     position: absolute;
-    bottom: 9px;
+    bottom: 8px;
     right: 0px;
     background-color: $color__teal-brand;
     padding: 3px 10px;
