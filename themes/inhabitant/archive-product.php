@@ -10,33 +10,41 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-		<?php if ( have_posts() ) : ?>
+			<h1 class="page-title">Shop Stuff</h1>
 
-			<header class="page-header">
-				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					// the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
-			
-			<div class="shop-page-grid">
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php
-					get_template_part( 'template-parts/content' );
-				?>
+			<?php
+					$terms = get_terms ( array(
+						'taxonomy' => 'product_type',
+						'hide_empty' => 0,
+					));
 
-			<?php endwhile; ?>
-			</div>
+					if ( !empty($terms) ) :
+			?>
+			<ul class="shop-links">
+			<?php foreach ( $terms as $term ) :		?>
+			<li><a href = "<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a></li>
+			<?php endforeach; ?>
+			</ul>
+			<?php endif; ?>
+	
+	<div class = "shop-page-grid">
+	<?php
+        $args = array( 'post_type' => 'product', 'order' => 'DESC', 'posts_per_page' => 16);
+        $product_posts = get_posts( $args ); // returns an array of posts
+      ?>
+			<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
+			<div class="shop-page-item">
+        <?php /* Content from your array of post results goes here */ ?>
+					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'medium' );  ?></a>
+					<p><?php the_title(); ?></p>
+					<p> <?php echo CFS()->get( 'price' ); ?>
 
-			<?php the_posts_navigation(); ?>
+					</p>
+</div>
+			<?php endforeach; wp_reset_postdata(); ?>
+	</div>
 
-		<?php else : ?>
-
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
-
-		<?php endif; ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
