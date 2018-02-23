@@ -13,22 +13,46 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
+				<h1><?php single_term_title(); ?></h1>
 				<?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
 
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+				<div class = "shop-page-grid">
 
-				<?php
-					get_template_part( 'template-parts/content' );
-				?>
+	<!-- grabs all the post type of product, with only the custom taxonomy of the term title -->
+	<?php
+		$current_term = single_term_title( "", false );
+	?>
 
-			<?php endwhile; ?>
 
-			<?php the_posts_navigation(); ?>
+	<?php
+        $args = array( 
+					'post_type' => 'product', 
+					'order' => 'DESC', 
+					'posts_per_page' => 16,
+					'tax_query' => array(
+						array(
+							'taxonomy' => 'product_type',
+							'field' => 'name',
+							'terms' => $current_term,
+						)
+					)
+				);
+        $product_posts = get_posts( $args ); // returns an array of posts
+      ?>
+			<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
+			<div class="shop-page-item">
+        <?php /* Content from your array of post results goes here */ ?>
+					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'medium' );  ?></a>
+					<p><?php the_title(); ?></p>
+					<p> <?php echo CFS()->get( 'price' ); ?>
+
+					</p>
+			</div>
+			<?php endforeach; wp_reset_postdata(); ?>
+	</div>
 
 		<?php else : ?>
 
@@ -39,5 +63,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

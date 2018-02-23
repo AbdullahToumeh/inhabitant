@@ -41,7 +41,7 @@ get_header(); ?>
 					<p> <?php echo CFS()->get( 'price' ); ?>
 
 					</p>
-</div>
+			</div>
 			<?php endforeach; wp_reset_postdata(); ?>
 	</div>
 

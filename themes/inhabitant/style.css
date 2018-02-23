@@ -926,7 +926,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   padding: 5px 60px;
-  border-bottom: 1px solid #a1a1a1;
+  border-bottom: 1px solid #e1e1e1;
   position: fixed;
   background-color: rgba(250, 250, 250, 0.9);
   z-index: 1; }
@@ -983,7 +983,7 @@ header img {
 
 .footer-logo {
   width: 50%;
-  padding-left: 250px; }
+  text-align: right; }
   .footer-logo img {
     width: 350px; }
 
@@ -993,7 +993,7 @@ header img {
   font-size: 16px;
   margin-top: 40px; }
 
-/* Page */
+/* Find Us Page */
 .page-id-33 .site-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1005,7 +1005,8 @@ header img {
   padding-top: 50px; }
   .page-id-33 .site-content h1 {
     text-align: left;
-    font-weight: bold; }
+    font-weight: bold;
+    padding-bottom: 0; }
   .page-id-33 .site-content h2 {
     font-family: 'Novecento', sans-serif;
     color: black;
@@ -1048,6 +1049,34 @@ header img {
 .page-id-33 a {
   color: #248A83;
   text-decoration: none; }
+
+.page-id-33 label {
+  text-transform: uppercase; }
+  .page-id-33 label span {
+    color: #d99054; }
+
+.page-id-33 input, .page-id-33 textarea {
+  margin-top: 10px;
+  background-color: #f4f4f4;
+  border-radius: 0;
+  border-color: #e1e1e1; }
+
+.page-id-33 .wpcf7-submit {
+  background-color: #248A83;
+  border: 1px solide #248A83;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  padding: 12px 20px;
+  margin: 0;
+  margin-bottom: 90px; }
+  .page-id-33 .wpcf7-submit:hover {
+    background-color: #19625d;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
 
 /* Journal Page  */
 .blog .content-area {
@@ -1226,3 +1255,316 @@ header img {
   margin-bottom: 70px; }
   .page-template-about .entry-content p {
     font-family: "Merriweather", serif; }
+
+/* Single Journal Post Page  */
+.single-post .site-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: "Merriweather", serif; }
+  .single-post .site-content article {
+    width: 750px; }
+  .single-post .site-content .widget-area {
+    border-left: 1px solid #e1e1e1;
+    padding-left: 60px;
+    padding-top: 90px; }
+    .single-post .site-content .widget-area h2.widget-title {
+      font-size: 1.6em;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: black;
+      font-family: "Novecento", sans-serif;
+      font-weight: bold; }
+    .single-post .site-content .widget-area .widget p .day-of-week {
+      font-weight: bold; }
+    .single-post .site-content .widget-area ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      font-family: "Merriweather", serif; }
+    .single-post .site-content .widget-area a {
+      color: #248A83;
+      text-decoration: none; }
+  .single-post .site-content .site-main {
+    width: 890px;
+    padding-left: 80px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px; }
+  .single-post .site-content .entry-header {
+    width: 750px;
+    position: relative;
+    color: white; }
+    .single-post .site-content .entry-header img {
+      width: 100%; }
+    .single-post .site-content .entry-header .entry-title {
+      position: absolute;
+      top: 0px;
+      background-color: #248A83;
+      padding: 10px 20px;
+      max-width: 550px;
+      font-size: 2.2em;
+      line-height: 1.2;
+      font-weight: bold;
+      text-align: left; }
+    .single-post .site-content .entry-header .entry-meta {
+      position: absolute;
+      bottom: 8px;
+      right: 0px;
+      background-color: #248A83;
+      padding: 3px 10px;
+      text-transform: uppercase;
+      font-family: "Novecento", sans-serif; }
+      .single-post .site-content .entry-header .entry-meta a {
+        text-decoration: none;
+        color: white; }
+        .single-post .site-content .entry-header .entry-meta a:hover {
+          color: #f0e4d1; }
+  .single-post .site-content .entry-footer {
+    font-family: "Novecento", sans-serif;
+    font-size: 1.05em; }
+    .single-post .site-content .entry-footer span {
+      padding-right: 20px; }
+      .single-post .site-content .entry-footer span a {
+        color: #248A83;
+        text-decoration: none; }
+        .single-post .site-content .entry-footer span a:hover {
+          color: black; }
+  .single-post .site-content .comments-area .comments-title {
+    color: black;
+    font-family: "Novecento", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em; }
+  .single-post .site-content .social-media-button {
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid black;
+    padding: 12px 25px;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    font-size: 0.85em; }
+    .single-post .site-content .social-media-button:hover {
+      color: white;
+      background-color: #248A83;
+      border-color: #248A83;
+      text-shadow: none; }
+  .single-post .site-content .comment-list {
+    margin: 0;
+    padding: 0; }
+    .single-post .site-content .comment-list .children li {
+      border-top: 1px solid #e1e1e1;
+      padding-top: 30px; }
+    .single-post .site-content .comment-list > li {
+      border-bottom: 1px solid #e1e1e1; }
+    .single-post .site-content .comment-list .comment-body {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+    .single-post .site-content .comment-list .fn {
+      font-weight: bold;
+      font-style: normal; }
+    .single-post .site-content .comment-list .comment-content {
+      padding-left: 20px;
+      padding-bottom: 20px; }
+      .single-post .site-content .comment-list .comment-content a {
+        color: #248A83;
+        text-decoration: none; }
+        .single-post .site-content .comment-list .comment-content a:hover {
+          color: black; }
+    .single-post .site-content .comment-list .comment-metadata {
+      color: #808080; }
+  .single-post .site-content h3.comment-reply-title {
+    font-family: "Novecento", sans-serif;
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin: 20px 0; }
+  .single-post .site-content .comment-respond label {
+    font-family: "Novecento", sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1em; }
+  .single-post .site-content .comment-form {
+    display: grid;
+    width: 750px;
+    grid-template-rows: 40px 250px 90px 90px 1fr;
+    grid-template-columns: 1fr 1fr; }
+    .single-post .site-content .comment-form p {
+      grid-column: 1/3;
+      margin: 0; }
+    .single-post .site-content .comment-form p.logged-in-as a {
+      text-decoration: none;
+      color: #248A83; }
+      .single-post .site-content .comment-form p.logged-in-as a:hover {
+        color: black; }
+    .single-post .site-content .comment-form .loggin-in-as ~ p {
+      grid-row: 3; }
+    .single-post .site-content .comment-form .comment-form-comment {
+      grid-column: 1/3;
+      grid-row: 2; }
+    .single-post .site-content .comment-form .comment-form-author {
+      grid-column: 1;
+      grid-row: 3; }
+      .single-post .site-content .comment-form .comment-form-author label {
+        display: block; }
+      .single-post .site-content .comment-form .comment-form-author input {
+        width: 90%; }
+    .single-post .site-content .comment-form .comment-form-email {
+      grid-column: 2;
+      grid-row: 3; }
+      .single-post .site-content .comment-form .comment-form-email label {
+        display: block; }
+      .single-post .site-content .comment-form .comment-form-email input {
+        width: 100%; }
+    .single-post .site-content .comment-form .comment-form-url {
+      grid-column: 1/3;
+      grid-row: 4; }
+      .single-post .site-content .comment-form .comment-form-url label {
+        display: block; }
+      .single-post .site-content .comment-form .comment-form-url input {
+        width: 100%; }
+    .single-post .site-content .comment-form .form-submit {
+      grid-column: 1/3;
+      grid-row: 5; }
+      .single-post .site-content .comment-form .form-submit input {
+        background-color: #248A83;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        text-shadow: none;
+        border: 1px solid #248A83;
+        color: white;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        padding: 12px 20px; }
+        .single-post .site-content .comment-form .form-submit input:hover {
+          background-color: #19625d; }
+    .single-post .site-content .comment-form textarea {
+      background-color: #f4f4f4;
+      border-radius: 0; }
+    .single-post .site-content .comment-form input {
+      background-color: #f4f4f4;
+      border-radius: 0; }
+    .single-post .site-content .comment-form .required {
+      color: #d99054; }
+
+/* Shop type pages (Do,eat,sleep,etc) */
+.tax-product_type h1 {
+  margin: 0;
+  padding-top: 90px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 2.4em; }
+
+.tax-product_type .taxonomy-description {
+  text-align: center; }
+  .tax-product_type .taxonomy-description p {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: "Merriweather", serif; }
+
+/* Single Product page */
+.single-product article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 100px;
+  margin-bottom: 100px; }
+  .single-product article h1 {
+    margin: 0;
+    text-align: left;
+    color: #d99054;
+    font-weight: bold;
+    line-height: 1.25;
+    padding-bottom: 0; }
+  .single-product article h3 {
+    font-weight: normal;
+    font-size: 1.4em;
+    margin: 0;
+    margin-top: 10px; }
+  .single-product article img {
+    width: 500px;
+    margin-right: 20px; }
+  .single-product article .entry-content {
+    width: 600px;
+    margin-top: 0;
+    margin-left: 20px; }
+    .single-product article .entry-content p {
+      font-family: "Merriweather", serif; }
+  .single-product article .social-media-button {
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid black;
+    padding: 12px 25px;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    font-size: 0.85em; }
+    .single-product article .social-media-button:hover {
+      color: white;
+      background-color: #248A83;
+      border-color: #248A83;
+      text-shadow: none; }
+
+/* 404 Page */
+.error404 .site-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.error404 .error-404 {
+  width: 890px;
+  padding: 40px; }
+
+.error404 h1 {
+  margin: 0;
+  padding-top: 50px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 2.3em;
+  padding-bottom: 10px; }
+
+.error404 .page-content {
+  margin: 0;
+  font-family: "Merriweather", serif; }
+
+/* Sidebar */
+.widget-area {
+  border-left: 1px solid #e1e1e1;
+  padding-left: 60px;
+  padding-top: 90px; }
+  .widget-area h2.widget-title {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+    font-family: "Novecento", sans-serif;
+    font-weight: bold; }
+  .widget-area .widget p .day-of-week {
+    font-weight: bold; }
+  .widget-area ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Merriweather", serif; }
+  .widget-area a {
+    color: #248A83;
+    text-decoration: none; }
