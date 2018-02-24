@@ -932,7 +932,10 @@ h2 {
   z-index: 1; }
 
 .main-navigation {
-  padding-top: 8px; }
+  padding-top: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
   .main-navigation li a {
     padding-left: 15px;
     padding-right: 15px;
@@ -1545,6 +1548,21 @@ header img {
 .error404 .page-content {
   margin: 0;
   font-family: "Merriweather", serif; }
+  .error404 .page-content h2 {
+    color: #2f1339;
+    font-family: "Novecento", sans-serif;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-transform: uppercase; }
+  .error404 .page-content ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0; }
+    .error404 .page-content ul a {
+      color: #248A83;
+      text-decoration: none; }
+      .error404 .page-content ul a:hover {
+        color: #2f1339; }
 
 /* Sidebar */
 .widget-area {
@@ -1568,3 +1586,13 @@ header img {
   .widget-area a {
     color: #248A83;
     text-decoration: none; }
+
+/* Search form */
+fieldset {
+  border: none;
+  padding: 0; }
+  fieldset input.search-field {
+    background-color: #f4f4f4;
+    border-radius: 0;
+    padding-top: 5px;
+    padding-bottom: 5px; }

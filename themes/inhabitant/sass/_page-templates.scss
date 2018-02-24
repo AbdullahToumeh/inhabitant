@@ -256,6 +256,7 @@ h2 {
 
 .main-navigation {
   padding-top: 8px;
+  display: flex;
   
   li a {
     padding-left: 15px;
@@ -1047,6 +1048,25 @@ ul {
   .page-content {
     margin: 0;
     font-family: $font__merriweather;
+    h2 {
+      color: $color__purple-brand;
+      font-family: $font__novecento;
+      font-weight: bold;
+      font-size: 1.6em;
+      text-transform: uppercase;
+    }
+    ul {
+      margin: 0;
+      list-style-type: none;
+      padding: 0;
+      a {
+        color: $color__teal-brand;
+        text-decoration: none;
+        &:hover {
+          color: $color__purple-brand;
+        }
+      }
+    }
   }
 }
 
@@ -1079,5 +1099,20 @@ ul {
   a {
     color: $color__teal-brand;
     text-decoration: none;
+  }
+}
+
+//---------------------------------------------------------
+/* Search form */
+
+fieldset {
+  border: none;
+  padding: 0;
+
+  input.search-field {
+    background-color: #f4f4f4;
+    border-radius: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
 }
