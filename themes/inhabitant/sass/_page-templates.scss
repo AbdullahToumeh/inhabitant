@@ -244,6 +244,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -255,8 +256,18 @@ h2 {
 }
 
 .main-navigation {
-  padding-top: 8px;
   display: flex;
+
+  .fa-search {
+    color: $color__teal-brand;
+    margin-top: 5px;
+  }
+
+  .header-search input {
+    border: 0;
+    background-color: white;
+    line-height: 1;
+  }
   
   li a {
     padding-left: 15px;
