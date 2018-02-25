@@ -272,10 +272,27 @@ h2 {
     line-height: 1;
     text-transform: uppercase;
     font-size: 0.8em;
-    width: 150px;
+    width:150px;
     padding-left: 5px;
     padding-top: 6px;
     padding-bottom: 6px;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .header-search {
+    animation-name: slidein;
+    animation-duration: 1s;
+    @keyframes slidein {
+      from {
+        width: 0;
+      }
+    
+      to {
+        width:150px;
+      }
+    }
   }
 
   .header-display {
