@@ -213,7 +213,7 @@ h2 {
       color: $color__teal-brand;
 
       &:hover {
-        color: black;
+        color: $color__purple-brand;
       }
     }
   }
@@ -387,7 +387,7 @@ header img {
 
   h2 {
     font-family: 'Novecento', sans-serif;
-    color: black;
+    color: $color__purple-brand;
     font-size: 2em;
     font-weight: bold;
     }
@@ -437,6 +437,9 @@ header img {
   a {
     color: $color__teal-brand;
     text-decoration: none;
+    &:hover {
+      color: $color__purple-brand;
+    }
   }
 
   label {
@@ -446,7 +449,7 @@ header img {
     }
   }
   
-  input, textarea {
+  .wpcf7 input, textarea {
     margin-top: 10px;
     background-color: #f4f4f4;
     border-radius: 0;
@@ -512,7 +515,7 @@ header img {
   }
   h2 {
     font-family: 'Novecento', sans-serif;
-    color: black;
+    color: $color__purple-brand;
     font-size: 2em;
     font-weight: bold;
     }
@@ -520,6 +523,9 @@ header img {
   a {
     color: $color__teal-brand;
     text-decoration: none;
+    &:hover {
+      color: $color__purple-brand;
+    }
   }
 
 
@@ -688,7 +694,7 @@ ul {
   }
 
   h2 {
-    color: black;
+    color: $color__purple-brand;
     font-family: $font__novecento;
     font-weight: bold;
     text-transform: uppercase;
@@ -731,7 +737,7 @@ ul {
       font-size: 1.6em;
       text-transform: uppercase;
       letter-spacing: 2px;
-      color: black; 
+      color: $color__purple-brand; 
       font-family: $font__novecento;
       font-weight: bold;
     }
@@ -809,7 +815,7 @@ ul {
         color: $color__teal-brand;
         text-decoration: none;
         &:hover {
-          color: black;
+          color: $color__purple-brand;
         }
       }
     }
@@ -817,7 +823,7 @@ ul {
 
   .comments-area {
     .comments-title {
-      color: black;
+      color: $color__purple-brand;
       font-family: $font__novecento;
       text-transform: uppercase;
       font-weight: bold;
@@ -870,7 +876,7 @@ ul {
         color: $color__teal-brand;
         text-decoration: none;
         &:hover {
-          color: black;
+          color: $color__purple-brand;
         }
       }
     }
@@ -909,7 +915,7 @@ ul {
       text-decoration: none;
       color: $color__teal-brand;
       &:hover {
-        color: black;
+        color: $color__purple-brand;
       }
     }
 
@@ -1122,7 +1128,7 @@ ul {
     font-size: 1.6em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black; 
+    color: $color__purple-brand; 
     font-family: $font__novecento;
     font-weight: bold;
   }
@@ -1140,6 +1146,9 @@ ul {
   a {
     color: $color__teal-brand;
     text-decoration: none;
+    &:hover {
+      color: $color__purple-brand;
+    }
   }
 }
 
@@ -1155,5 +1164,59 @@ fieldset {
     border-radius: 0;
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+}
+
+//--------------------------------------------------------
+/* Search results */
+
+.search-results, .search-no-results {
+  .site-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .page-header {
+    margin: 0;
+    padding-top: 60px;
+    margin-right: 40px;
+    border-bottom: 1px solid $color__solid-border;
+    h1 {
+      font-weight: bold;
+      text-align: left;
+      font-size: 2.5em;
+      letter-spacing: 1px;
+      padding: 0;
+    }
+  }
+  .content-area {
+    width: 890px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .entry-title {
+    margin-top: 10px;
+    margin-bottom: 0; 
+  }
+
+  .entry-header a {
+    color: $color__teal-brand;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $font__novecento;
+    font-weight: bold;
+    font-size: 0.8em;
+    &:hover {
+      color: $color__purple-brand;
+    }
+  }
+
+  article {
+    margin-right: 40px;
+    .entry-summary {
+      font-family: $font__merriweather;
+    }
   }
 }

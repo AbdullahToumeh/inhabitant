@@ -896,7 +896,7 @@ h2 {
       text-decoration: none;
       color: #248A83; }
       .home-journal-part h3 a:hover {
-        color: black; }
+        color: #2f1339; }
   .home-journal-part .read-more-button {
     padding: 10px 20px;
     border: 1px solid black;
@@ -1050,7 +1050,7 @@ header img {
     padding-bottom: 0; }
   .page-id-33 .site-content h2 {
     font-family: 'Novecento', sans-serif;
-    color: black;
+    color: #2f1339;
     font-size: 2em;
     font-weight: bold; }
 
@@ -1090,13 +1090,15 @@ header img {
 .page-id-33 a {
   color: #248A83;
   text-decoration: none; }
+  .page-id-33 a:hover {
+    color: #2f1339; }
 
 .page-id-33 label {
   text-transform: uppercase; }
   .page-id-33 label span {
     color: #d99054; }
 
-.page-id-33 input, .page-id-33 textarea {
+.page-id-33 .wpcf7 input, .page-id-33 textarea {
   margin-top: 10px;
   background-color: #f4f4f4;
   border-radius: 0;
@@ -1149,12 +1151,14 @@ header img {
     padding-bottom: 100px; }
   .blog .content-area h2 {
     font-family: 'Novecento', sans-serif;
-    color: black;
+    color: #2f1339;
     font-size: 2em;
     font-weight: bold; }
   .blog .content-area a {
     color: #248A83;
     text-decoration: none; }
+    .blog .content-area a:hover {
+      color: #2f1339; }
   .blog .content-area .entry-header {
     width: 750px;
     position: relative;
@@ -1280,7 +1284,7 @@ header img {
   letter-spacing: 2px; }
 
 .page-template-about h2 {
-  color: black;
+  color: #2f1339;
   font-family: "Novecento", sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -1317,7 +1321,7 @@ header img {
       font-size: 1.6em;
       text-transform: uppercase;
       letter-spacing: 2px;
-      color: black;
+      color: #2f1339;
       font-family: "Novecento", sans-serif;
       font-weight: bold; }
     .single-post .site-content .widget-area .widget p .day-of-week {
@@ -1374,9 +1378,9 @@ header img {
         color: #248A83;
         text-decoration: none; }
         .single-post .site-content .entry-footer span a:hover {
-          color: black; }
+          color: #2f1339; }
   .single-post .site-content .comments-area .comments-title {
-    color: black;
+    color: #2f1339;
     font-family: "Novecento", sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -1421,7 +1425,7 @@ header img {
         color: #248A83;
         text-decoration: none; }
         .single-post .site-content .comment-list .comment-content a:hover {
-          color: black; }
+          color: #2f1339; }
     .single-post .site-content .comment-list .comment-metadata {
       color: #808080; }
   .single-post .site-content h3.comment-reply-title {
@@ -1445,7 +1449,7 @@ header img {
       text-decoration: none;
       color: #248A83; }
       .single-post .site-content .comment-form p.logged-in-as a:hover {
-        color: black; }
+        color: #2f1339; }
     .single-post .site-content .comment-form .loggin-in-as ~ p {
       grid-row: 3; }
     .single-post .site-content .comment-form .comment-form-comment {
@@ -1611,7 +1615,7 @@ header img {
     font-size: 1.6em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: black;
+    color: #2f1339;
     font-family: "Novecento", sans-serif;
     font-weight: bold; }
   .widget-area .widget p .day-of-week {
@@ -1624,6 +1628,8 @@ header img {
   .widget-area a {
     color: #248A83;
     text-decoration: none; }
+    .widget-area a:hover {
+      color: #2f1339; }
 
 /* Search form */
 fieldset {
@@ -1634,3 +1640,51 @@ fieldset {
     border-radius: 0;
     padding-top: 5px;
     padding-bottom: 5px; }
+
+/* Search results */
+.search-results .site-content, .search-no-results .site-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 40px;
+  margin-right: 40px; }
+
+.search-results .page-header, .search-no-results .page-header {
+  margin: 0;
+  padding-top: 60px;
+  margin-right: 40px;
+  border-bottom: 1px solid #e1e1e1; }
+  .search-results .page-header h1, .search-no-results .page-header h1 {
+    font-weight: bold;
+    text-align: left;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+    padding: 0; }
+
+.search-results .content-area, .search-no-results .content-area {
+  width: 890px;
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.search-results .entry-title, .search-no-results .entry-title {
+  margin-top: 10px;
+  margin-bottom: 0; }
+
+.search-results .entry-header a, .search-no-results .entry-header a {
+  color: #248A83;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Novecento", sans-serif;
+  font-weight: bold;
+  font-size: 0.8em; }
+  .search-results .entry-header a:hover, .search-no-results .entry-header a:hover {
+    color: #2f1339; }
+
+.search-results article, .search-no-results article {
+  margin-right: 40px; }
+  .search-results article .entry-summary, .search-no-results article .entry-summary {
+    font-family: "Merriweather", serif; }
