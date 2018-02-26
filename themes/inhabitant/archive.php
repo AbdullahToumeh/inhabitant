@@ -25,6 +25,7 @@ get_header(); ?>
 				<?php
 					get_template_part( 'template-parts/content' );
 				?>
+				<a href="<?php the_permalink(); ?>" class="journal-button">Read More &rarr;</a>
 
 			<?php endwhile; ?>
 

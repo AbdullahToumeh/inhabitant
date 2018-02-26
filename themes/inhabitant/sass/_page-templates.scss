@@ -517,6 +517,7 @@ header img {
       font-weight: bold;
       border-bottom: 1px solid $color__solid-border;
       margin-right: 40px;
+      margin-bottom: 0;
     }
   }
   h2 {
@@ -651,9 +652,23 @@ ul {
     }
     p {
       margin: 0;
-      text-align: left;
-      display: inline-block;
       font-family: $font__merriweather;
+      &.product-dots {
+        width: auto;
+        overflow: hidden;
+      }
+      &.product-title {
+        width: auto;
+        white-space: nowrap;
+      }
+    }
+    .product-price-info {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: 15px;
+      margin-right: 15px;
+      max-width: 230px;
     }
   }
 }

@@ -1153,7 +1153,8 @@ header img {
       text-align: left;
       font-weight: bold;
       border-bottom: 1px solid #e1e1e1;
-      margin-right: 40px; }
+      margin-right: 40px;
+      margin-bottom: 0; }
   .blog .content-area h2, .archive .site-content h2 {
     font-family: 'Novecento', sans-serif;
     color: #2f1339;
@@ -1257,9 +1258,27 @@ header img {
       border-bottom: 5px solid #e1e1e1; }
     .shop-page-grid .shop-page-item p {
       margin: 0;
-      text-align: left;
-      display: inline-block;
       font-family: "Merriweather", serif; }
+      .shop-page-grid .shop-page-item p.product-dots {
+        width: auto;
+        overflow: hidden; }
+      .shop-page-grid .shop-page-item p.product-title {
+        width: auto;
+        white-space: nowrap; }
+    .shop-page-grid .shop-page-item .product-price-info {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      margin-left: 15px;
+      margin-right: 15px;
+      max-width: 230px; }
 
 .post-type-archive .page-title {
   color: #404040;
