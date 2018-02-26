@@ -1531,6 +1531,9 @@ header img {
     .single-post .site-content .comment-form .required {
       color: #d99054; }
 
+.logged-in.single-post .site-content .comment-form .form-submit {
+  grid-row: 3; }
+
 /* Shop type pages (Do,eat,sleep,etc) */
 .tax-product_type .site-content .site-main {
   width: 100%; }

@@ -1019,6 +1019,11 @@ ul {
     }
   }
 
+  //over-riding submit button on loggin-in status page for comments
+  .logged-in.single-post .site-content .comment-form .form-submit {
+    grid-row: 3;
+  }
+
 
 //------------------------------------------------------------------
 /* Shop type pages (Do,eat,sleep,etc) */
