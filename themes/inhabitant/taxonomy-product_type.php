@@ -46,8 +46,11 @@ get_header(); ?>
 			<div class="shop-page-item">
         <?php /* Content from your array of post results goes here */ ?>
 					<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail( 'medium' );  ?></a>
-					<p><?php the_title(); ?></p>
-					<p> <?php echo CFS()->get( 'price' ); ?>
+					<div class="product-price-info">
+						<p class="product-title"><?php the_title(); ?></p>
+						<p class="product-dots">......................................</p>
+						<p> <?php echo CFS()->get( 'price' ); ?>
+					</div>	
 
 					</p>
 			</div>
