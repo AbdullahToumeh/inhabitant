@@ -1,9 +1,9 @@
 /*!
-Theme Name: RED Starter Theme
+Theme Name: Inhabitent Theme
 Theme URI: http://underscores.me/
-Author: RED Academy
-Author URI: http://www.redacademy.com
-Description: A WordPress starter theme for RED Academy students.
+Author: Dakota Mauza
+Author URI: https://github.com/DakotaPaige
+Description: A theme for the Inhbaitent website.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -1054,32 +1054,10 @@ header img {
     font-size: 2em;
     font-weight: bold; }
 
-.page-id-33 .widget-area {
-  border-left: 1px solid #e1e1e1;
-  padding-left: 60px;
-  padding-top: 90px; }
-  .page-id-33 .widget-area h2 {
-    font-size: 1.6em;
-    text-transform: uppercase;
-    letter-spacing: 2px; }
-  .page-id-33 .widget-area .widget p {
-    font-family: "Merriweather", serif; }
-    .page-id-33 .widget-area .widget p .day-of-week {
-      font-weight: bold; }
-
 .page-id-33 .content-area {
   width: 890px;
   padding-left: 20px;
   padding-right: 20px; }
-
-.page-id-33 .widget-area {
-  border-left: 1px solid #e1e1e1;
-  padding-left: 60px;
-  padding-top: 50px; }
-  .page-id-33 .widget-area h2 {
-    font-size: 1.6em;
-    text-transform: uppercase;
-    letter-spacing: 2px; }
 
 .page-id-33 ul {
   list-style-type: none;
@@ -1133,16 +1111,6 @@ header img {
   font-family: "Merriweather", serif; }
   .blog .content-area article, .archive .site-content article {
     width: 750px; }
-  .blog .content-area .widget-area, .archive .site-content .widget-area {
-    border-left: 1px solid #e1e1e1;
-    padding-left: 60px;
-    padding-top: 90px; }
-    .blog .content-area .widget-area h2, .archive .site-content .widget-area h2 {
-      font-size: 1.6em;
-      text-transform: uppercase;
-      letter-spacing: 2px; }
-    .blog .content-area .widget-area .widget p .day-of-week, .archive .site-content .widget-area .widget p .day-of-week {
-      font-weight: bold; }
   .blog .content-area .site-main, .archive .site-content .site-main {
     width: 890px;
     padding-left: 80px;
@@ -1344,27 +1312,6 @@ header img {
   font-family: "Merriweather", serif; }
   .single-post .site-content article {
     width: 750px; }
-  .single-post .site-content .widget-area {
-    border-left: 1px solid #e1e1e1;
-    padding-left: 60px;
-    padding-top: 90px; }
-    .single-post .site-content .widget-area h2.widget-title {
-      font-size: 1.6em;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      color: #2f1339;
-      font-family: "Novecento", sans-serif;
-      font-weight: bold; }
-    .single-post .site-content .widget-area .widget p .day-of-week {
-      font-weight: bold; }
-    .single-post .site-content .widget-area ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-      font-family: "Merriweather", serif; }
-    .single-post .site-content .widget-area a {
-      color: #248A83;
-      text-decoration: none; }
   .single-post .site-content .site-main {
     width: 890px;
     padding-left: 80px;

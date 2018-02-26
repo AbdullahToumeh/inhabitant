@@ -26,40 +26,12 @@
     }
   }
 
-  .widget-area {
-    border-left: 1px solid $color__solid-border;
-    padding-left: 60px;
-    padding-top: 90px;
-    h2 {
-      font-size: 1.6em;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-    .widget p {
-      font-family: $font__merriweather;
-      .day-of-week {
-        font-weight: bold;
-      }
-    }
-  }
-
   .content-area {
     width: 890px;
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .widget-area {
-    border-left: 1px solid $color__solid-border;
-    padding-left: 60px;
-    padding-top: 50px;
-
-    h2 {
-      font-size: 1.6em;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-  }
   ul {
     list-style-type: none;
     padding: 0;
@@ -122,21 +94,6 @@
 
   article {
     width: 750px;
-  }
-
-
-  .widget-area {
-    border-left: 1px solid $color__solid-border;
-    padding-left: 60px;
-    padding-top: 90px;
-    h2 {
-      font-size: 1.6em;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-    .widget p .day-of-week {
-      font-weight: bold;
-    }
   }
 
   .site-main {
@@ -390,35 +347,6 @@ ul {
 
   article {
     width: 750px;
-  }
-
-  .widget-area {
-    border-left: 1px solid $color__solid-border;
-    padding-left: 60px;
-    padding-top: 90px;
-    h2.widget-title {
-      font-size: 1.6em;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      color: $color__purple-brand; 
-      font-family: $font__novecento;
-      font-weight: bold;
-    }
-    .widget p .day-of-week {
-      font-weight: bold;
-    }
-
-    ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-      font-family: $font__merriweather;
-    } 
-  
-    a {
-      color: $color__teal-brand;
-      text-decoration: none;
-    }
   }
 
   .site-main {
