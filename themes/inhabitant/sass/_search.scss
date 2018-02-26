@@ -1,0 +1,68 @@
+//---------------------------------------------------------
+/* Search form */
+
+fieldset {
+  border: none;
+  padding: 0;
+
+  input.search-field {
+    background-color: #f4f4f4;
+    border-radius: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+
+//--------------------------------------------------------
+/* Search results */
+
+.search-results, .search-no-results {
+  .site-content {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .page-header {
+    margin: 0;
+    padding-top: 60px;
+    margin-right: 40px;
+    border-bottom: 1px solid $color__solid-border;
+    h1 {
+      font-weight: bold;
+      text-align: left;
+      font-size: 2.5em;
+      letter-spacing: 1px;
+      padding: 0;
+    }
+  }
+  .content-area {
+    width: 890px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .entry-title {
+    margin-top: 10px;
+    margin-bottom: 0; 
+  }
+
+  .entry-header a {
+    color: $color__teal-brand;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: $font__novecento;
+    font-weight: bold;
+    font-size: 0.8em;
+    &:hover {
+      color: $color__purple-brand;
+    }
+  }
+
+  article {
+    margin-right: 40px;
+    .entry-summary {
+      font-family: $font__merriweather;
+    }
+  }
+}

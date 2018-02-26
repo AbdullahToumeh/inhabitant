@@ -704,9 +704,6 @@ object {
 .gallery-caption {
   display: block; }
 
-/*--------------------------------------------------------------
-# Page Templates
---------------------------------------------------------------*/
 /* Front page */
 body {
   font-size: 16px;
@@ -1034,6 +1031,9 @@ header img {
   font-size: 16px;
   margin-top: 40px; }
 
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
 /* Find Us Page */
 .page-id-33 .site-content {
   display: -webkit-box;
@@ -1602,7 +1602,31 @@ header img {
       border-color: #248A83;
       text-shadow: none; }
 
-/* 404 Page */
+/* Sidebar */
+.widget-area {
+  border-left: 1px solid #e1e1e1;
+  padding-left: 60px;
+  padding-top: 90px; }
+  .widget-area h2.widget-title {
+    font-size: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #2f1339;
+    font-family: "Novecento", sans-serif;
+    font-weight: bold; }
+  .widget-area .widget p .day-of-week {
+    font-weight: bold; }
+  .widget-area ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Merriweather", serif; }
+  .widget-area a {
+    color: #248A83;
+    text-decoration: none; }
+    .widget-area a:hover {
+      color: #2f1339; }
+
 .error404 .site-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1642,31 +1666,6 @@ header img {
       text-decoration: none; }
       .error404 .page-content ul a:hover {
         color: #2f1339; }
-
-/* Sidebar */
-.widget-area {
-  border-left: 1px solid #e1e1e1;
-  padding-left: 60px;
-  padding-top: 90px; }
-  .widget-area h2.widget-title {
-    font-size: 1.6em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #2f1339;
-    font-family: "Novecento", sans-serif;
-    font-weight: bold; }
-  .widget-area .widget p .day-of-week {
-    font-weight: bold; }
-  .widget-area ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    font-family: "Merriweather", serif; }
-  .widget-area a {
-    color: #248A83;
-    text-decoration: none; }
-    .widget-area a:hover {
-      color: #2f1339; }
 
 /* Search form */
 fieldset {
