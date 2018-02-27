@@ -1,10 +1,10 @@
-#Inhabitent README
+# Inhabitent README
 
 ![Image of Inhabitent](/themes/inhabitant/screenshot.png)
 
 Project at RED Academy creating a multi-page website with a blog and many other features for a theoretical company called Inhabitent. Wordpress is used as a content management system.
 
-##Key Features
+## Key Features
 
 * Uses a custom page template for the About page, where the header image can be dynamically changed on the wordpress dashboard.
 * Created a custom post type for the Products in a seperate functionality plug in.
@@ -17,6 +17,6 @@ Project at RED Academy creating a multi-page website with a blog and many other 
 * Used jQuery to absolutely position the header at the top of the screen with a transparant background on pages with a hero image, and transition when the user has scrolled past. 
 
 
-##License
+## License
 
 [MIT](LICENSE)
