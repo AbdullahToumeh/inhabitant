@@ -35,6 +35,9 @@
   .site-branding a {
     color: white;
   }
+  .site-branding .tent-logo {
+    background-image: url('../../images/inhabitent-logo-tent-white.svg');
+  }
 }
 
 
@@ -92,6 +95,14 @@
   li a:hover {
     color: #404040;
   }
+}
+
+.site-branding .tent-logo {
+  background-image: url('../../images/inhabitent-logo-tent.svg');
+  width: 50px;
+  background-size: contain;
+  height: 40px;
+  background-repeat: no-repeat;
 }
 
 header img {

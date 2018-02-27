@@ -945,6 +945,8 @@ h2 {
     color: white; }
   .hero-page-header .site-branding a {
     color: white; }
+  .hero-page-header .site-branding .tent-logo {
+    background-image: url("../../images/inhabitent-logo-tent-white.svg"); }
 
 .main-navigation {
   display: -webkit-box;
@@ -994,6 +996,13 @@ h2 {
     text-transform: uppercase; }
   .main-navigation li a:hover {
     color: #404040; }
+
+.site-branding .tent-logo {
+  background-image: url("../../images/inhabitent-logo-tent.svg");
+  width: 50px;
+  background-size: contain;
+  height: 40px;
+  background-repeat: no-repeat; }
 
 header img {
   width: 50px; }
