@@ -935,7 +935,7 @@ h2 {
   background-color: transparent;
   border: 0;
   position: absolute;
-  top: 0; }
+  top: 30px; }
   .hero-page-header .main-navigation a, .hero-page-header .main-navigation .fa-search {
     color: white; }
     .hero-page-header .main-navigation a:hover, .hero-page-header .main-navigation .fa-search:hover {
