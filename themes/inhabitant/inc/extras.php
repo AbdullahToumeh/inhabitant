@@ -37,7 +37,7 @@ add_action('login_head', 'inhabitent_login_logo');
 
 //Changes path of logo on login page to be the site home page
 function the_url( $url ) {
-	return get_bloginfo( 'url' );
+	return home_url();
 }
 add_filter( 'login_headerurl', 'the_url' );
 
