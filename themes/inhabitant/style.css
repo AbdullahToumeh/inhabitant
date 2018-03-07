@@ -1156,12 +1156,6 @@ header img {
     text-decoration: none; }
     .blog .content-area a:hover, .archive .site-content a:hover {
       color: #2f1339; }
-  .blog .content-area .entry-header, .archive .site-content .entry-header {
-    width: 750px;
-    position: relative;
-    margin-top: 80px; }
-    .blog .content-area .entry-header .entry-title, .archive .site-content .entry-header .entry-title {
-      position: absolute; }
   .blog .content-area a.journal-button, .archive .site-content a.journal-button {
     color: black;
     padding: 10px 20px;
@@ -1173,6 +1167,12 @@ header img {
       background-color: #248A83;
       border-color: #248A83;
       color: white; }
+  .blog .content-area .entry-header, .archive .site-content .entry-header {
+    width: 750px;
+    position: relative;
+    margin-top: 80px; }
+    .blog .content-area .entry-header .entry-title, .archive .site-content .entry-header .entry-title {
+      position: absolute; }
   .blog .content-area ul, .archive .site-content ul {
     list-style-type: none;
     padding: 0;
@@ -1659,7 +1659,8 @@ fieldset {
       -ms-flex-direction: row;
           flex-direction: row;
   margin-left: 40px;
-  margin-right: 40px; }
+  margin-right: 40px;
+  padding-bottom: 50px; }
 
 .search-results .page-header, .search-no-results .page-header {
   margin: 0;
@@ -1696,3 +1697,16 @@ fieldset {
   margin-right: 40px; }
   .search-results article .entry-summary, .search-no-results article .entry-summary {
     font-family: "Merriweather", serif; }
+
+.search-results a.journal-button, .search-no-results a.journal-button {
+  color: black;
+  padding: 10px 20px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  font-family: "Novecento", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none; }
+  .search-results a.journal-button:hover, .search-no-results a.journal-button:hover {
+    background-color: #248A83;
+    border-color: #248A83;
+    color: white; }

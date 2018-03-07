@@ -125,6 +125,21 @@
     }
   }
 
+  a.journal-button {
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    font-family: $font__novecento;
+    text-transform: uppercase;
+  
+    &:hover {
+      background-color: $color__teal-brand;
+      border-color: $color__teal-brand;
+      color: white;
+    }
+  }
+
 
   .entry-header {
     width: 750px;
@@ -134,21 +149,6 @@
     .entry-title {
       position: absolute;
     }
-}
-
-a.journal-button {
-  color: black;
-  padding: 10px 20px;
-  border: 1px solid black;
-  margin-bottom: 20px;
-  font-family: $font__novecento;
-  text-transform: uppercase;
-
-  &:hover {
-    background-color: $color__teal-brand;
-    border-color: $color__teal-brand;
-    color: white;
-  }
 }
 
 ul {
@@ -196,6 +196,7 @@ ul {
   }
 }
 }
+
 
 //----------------------------------------------------------
 /* Shop Page  */

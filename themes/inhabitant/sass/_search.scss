@@ -22,6 +22,7 @@ fieldset {
     flex-direction: row;
     margin-left: 40px;
     margin-right: 40px;
+    padding-bottom: 50px;
   }
   .page-header {
     margin: 0;
@@ -63,6 +64,22 @@ fieldset {
     margin-right: 40px;
     .entry-summary {
       font-family: $font__merriweather;
+    }
+  }
+
+  a.journal-button {
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    font-family: $font__novecento;
+    text-transform: uppercase;
+    text-decoration: none;
+  
+    &:hover {
+      background-color: $color__teal-brand;
+      border-color: $color__teal-brand;
+      color: white;
     }
   }
 }
