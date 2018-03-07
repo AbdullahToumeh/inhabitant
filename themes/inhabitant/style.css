@@ -1549,9 +1549,10 @@ header img {
     padding-bottom: 0; }
   .single-product article h3 {
     font-weight: normal;
-    font-size: 1.4em;
+    font-size: 1.8em;
     margin: 0;
-    margin-top: 10px; }
+    margin-top: 10px;
+    font-family: "Novecento", sans-serif; }
   .single-product article img {
     width: 500px;
     margin-right: 20px; }
