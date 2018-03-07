@@ -2,7 +2,7 @@
 /**
  * The main template file.
  *
- * @package RED_Starter_Theme
+ * @package Inhabitent
  */
 
 get_header(); ?>
@@ -61,21 +61,21 @@ get_header(); ?>
     <div class="adventures-grid">
       <div class="canoe-adventure">
         <h2>Getting Back to Nature in a Canoe</h2>
-        <a href="canoe.php">Read More</a>
+        <a href="#">Read More</a>
       </div>
       <div class="beach-adventure">
         <h2 class="medium-merriweather">A Night with Friends at the Beach</h2>
-        <a href="beach.php">Read More</a>
+        <a href="#">Read More</a>
       </div>
       <div class="mountain-adventure">
         <h2 class="small-merriweather">Taking in the View at Big Mountain</h2>
-        <a href="mountain.php">Read More</a>
+        <a href="#">Read More</a>
       </div>
       <div class="night-adventure">
         <h2 class="small-merriweather">Star-gazing at the Night Sky</h2>
-        <a href="night.php">Read More</a>
+        <a href="#">Read More</a>
       </div>
-      <a href="more-adventures.php" class="adventure-button">More Adventures</a>
+      <a href="#" class="adventure-button">More Adventures</a>
     </div>
 
 

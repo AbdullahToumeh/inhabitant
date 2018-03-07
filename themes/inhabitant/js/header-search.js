@@ -9,7 +9,7 @@ $(document).ready(function(){
   if ($('.home').length || $('.page-template-about').length) {
     $('.site-header').addClass('hero-page-header');
   }
-
+  
   //function to handle the change of header when user scrolls past the height of the header image
   $(window).scroll(function(){
     var currentScreenPosition  = $(document).scrollTop();
@@ -18,5 +18,10 @@ $(document).ready(function(){
     } else {
       $( '.site-header' ).removeClass( 'hero-page-header' );
     }
+  });
+
+  //if no user is logged in, display the header at the top. if they are, display the header under the admin bar.
+  $('body').has('.logged-in', function() {
+    $('.site-header').css('top', '30px');
   });
 })

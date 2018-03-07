@@ -1,14 +1,13 @@
 /*!
-Theme Name: Inhabitent Theme
+Theme Name: Inhabitent
 Theme URI: http://underscores.me/
-Author: Dakota Mauza
+Author: Dakota
 Author URI: https://github.com/DakotaPaige
-Description: A WordPress theme for the Inhabitent website.
+Description: A WordPress starter theme for RED Academy students.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags:
-Text Domain: inhabitent
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -935,8 +934,7 @@ h2 {
 .hero-page-header {
   background-color: transparent;
   border: 0;
-  position: absolute;
-  top: 30px; }
+  position: absolute; }
   .hero-page-header .main-navigation a, .hero-page-header .main-navigation .fa-search {
     color: white; }
     .hero-page-header .main-navigation a:hover, .hero-page-header .main-navigation .fa-search:hover {
@@ -1388,6 +1386,8 @@ header img {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 2em; }
+  .single-post .site-content .comments-area .comment-author-avatar img {
+    border-radius: 50px; }
   .single-post .site-content .social-media-button {
     text-transform: uppercase;
     background-color: white;
