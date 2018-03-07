@@ -1207,7 +1207,8 @@ header img {
 
 /* Shop Page  */
 .post-type-archive .site-content .site-main {
-  width: 100%; }
+  width: 100vw;
+  padding: 0; }
   .post-type-archive .site-content .site-main h1.page-title {
     border: 0;
     margin: 0;
@@ -1508,7 +1509,8 @@ header img {
 
 /* Shop type pages (Do,eat,sleep,etc) */
 .tax-product_type .site-content .site-main {
-  width: 100%; }
+  width: 100vw;
+  padding: 0; }
 
 .tax-product_type h1 {
   margin: 0;
