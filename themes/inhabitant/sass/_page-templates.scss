@@ -22,7 +22,7 @@
     }
 
     h2 {
-      font-family: 'Novecento', sans-serif;
+      font-family: $font__novecento;
       color: $color__purple-brand;
       font-size: 2em;
       font-weight: bold;
@@ -116,7 +116,7 @@
     }
   }
   h2 {
-    font-family: 'Novecento', sans-serif;
+    font-family: $font__novecento;
     color: $color__purple-brand;
     font-size: 2em;
     font-weight: bold;

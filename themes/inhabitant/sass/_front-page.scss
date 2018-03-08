@@ -22,7 +22,7 @@ body {
 h1 {
   text-transform: uppercase;
   text-align: center;
-  font-family: 'Novecento', sans-serif;
+  font-family: $font__novecento;
   font-weight: normal;
   font-style: normal;
   font-size: 2.5em;
@@ -44,7 +44,7 @@ h1 {
   margin-right: 10px;
   text-align: center;
   padding: 15px 6px;
-  font-family: 'Merriweather', serif;
+  font-family: $font__merriweather;
 
   &:hover {
     border-color: $color__orange-brand;
@@ -60,7 +60,7 @@ h1 {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: 'Novecento', sans-serif;
+    font-family: $font__novecento;
 
     &:hover {
       background-color: darken($color__teal-brand, 20%);
@@ -124,7 +124,7 @@ h1 {
     padding: 10px 20px;
     border: 1px solid white;
     text-transform: uppercase;
-    font-family: 'Novecento', sans-serif;
+    font-family: $font__novecento;
     color: white;
     text-decoration: none;
 
@@ -138,7 +138,7 @@ h1 {
 .adventure-button {
   background-color: $color__teal-brand;
   text-transform: uppercase;
-  font-family: 'Novecento', sans-serif;
+  font-family: $font__novecento;
   color: white;
   text-decoration: none;
   text-align: center;
@@ -154,7 +154,7 @@ h1 {
 
 h2 {
   color: white;
-  font-family: 'Merriweather', serif;
+  font-family: $font__merriweather;
   font-weight: normal;
   font-style: normal;
   font-size: 2.7em;
