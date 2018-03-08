@@ -433,23 +433,6 @@ ul {
     }
   }
 
-  .social-media-button {
-    text-transform: uppercase;
-    background-color: white;
-    border: 1px solid black;
-    padding: 12px 25px;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 0.85em;
-
-    &:hover {
-      color: white;
-      background-color: $color__teal-brand;
-      border-color: $color__teal-brand;
-      text-shadow: none;
-    }
-  }
-
   .comment-list {
     margin: 0;
     padding: 0;
@@ -591,6 +574,24 @@ ul {
     }
   }
 
+  .social-media-button {
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid black;
+    padding: 12px 25px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 0.85em;
+
+    &:hover {
+      color: white;
+      background-color: $color__teal-brand;
+      border-color: $color__teal-brand;
+      text-shadow: none;
+      box-shadow: none;
+    }
+  }
+
   //over-riding submit button on loggin-in status page for comments
   .logged-in.single-post .site-content .comment-form .form-submit {
     grid-row: 3;
@@ -681,5 +682,45 @@ ul {
         text-shadow: none;
       }
     }
+  }
+}
+
+//------------------------------------------------------------------
+/* Single Adventures Page */
+
+.adventures-template-default {
+  .adventure-header img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .adventure-content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    p {
+      font-family: $font__merriweather;
+    }
+  }
+
+  .entry-title {
+    text-align: left;
+    margin: 0;
+    margin-top: 40px;
+    padding: 0;
+    font-weight: bold;
+    font-size: 2.3em;
+    letter-spacing: 1px;
+  }
+
+  h4 {
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.1em;
+  }
+
+  .social-media-links {
+    margin-bottom: 80px;
   }
 }

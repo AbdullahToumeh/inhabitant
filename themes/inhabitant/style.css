@@ -1392,20 +1392,6 @@ header img {
     font-size: 2em; }
   .single-post .site-content .comments-area .comment-author-avatar img {
     border-radius: 50px; }
-  .single-post .site-content .social-media-button {
-    text-transform: uppercase;
-    background-color: white;
-    border: 1px solid black;
-    padding: 12px 25px;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    font-size: 0.85em; }
-    .single-post .site-content .social-media-button:hover {
-      color: white;
-      background-color: #248A83;
-      border-color: #248A83;
-      text-shadow: none; }
   .single-post .site-content .comment-list {
     margin: 0;
     padding: 0; }
@@ -1507,6 +1493,23 @@ header img {
     .single-post .site-content .comment-form .required {
       color: #d99054; }
 
+.social-media-button {
+  text-transform: uppercase;
+  background-color: white;
+  border: 1px solid black;
+  padding: 12px 25px;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-size: 0.85em; }
+  .social-media-button:hover {
+    color: white;
+    background-color: #248A83;
+    border-color: #248A83;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none; }
+
 .logged-in.single-post .site-content .comment-form .form-submit {
   grid-row: 3; }
 
@@ -1579,6 +1582,36 @@ header img {
       background-color: #248A83;
       border-color: #248A83;
       text-shadow: none; }
+
+/* Single Adventures Page */
+.adventures-template-default .adventure-header img {
+  height: 100%;
+  width: 100%; }
+
+.adventures-template-default .adventure-content {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto; }
+  .adventures-template-default .adventure-content p {
+    font-family: "Merriweather", serif; }
+
+.adventures-template-default .entry-title {
+  text-align: left;
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 2.3em;
+  letter-spacing: 1px; }
+
+.adventures-template-default h4 {
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 1.1em; }
+
+.adventures-template-default .social-media-links {
+  margin-bottom: 80px; }
 
 /* Sidebar */
 .widget-area {

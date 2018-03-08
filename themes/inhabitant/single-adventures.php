@@ -14,18 +14,20 @@ get_header(); ?>
 
       <header class="adventure-header">
 				<?php if ( has_post_thumbnail() ) : ?>
-						<?php the_post_thumbnail( 'large' ); ?>
+						<?php the_post_thumbnail( 'full' ); ?>
 				<?php endif; ?>
 			</header><!-- .entry-header -->
 
       <div class="adventure-content">
 					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-          <?php the_author(); ?>
+          <h4>By <?php the_author(); ?></h4>
 					<?php the_content(); ?>
 
-			<button class="social-media-button"><i class="fab fa-facebook-f"></i> &nbsp;Like</button>
-			<button class="social-media-button"><i class="fab fa-twitter"></i> &nbsp;Tweet</button>
-			<button class="social-media-button"><i class="fab fa-pinterest"></i> &nbsp;Pin</button>
+      <div class="social-media-links">
+        <button class="social-media-button"><i class="fab fa-facebook-f"></i> &nbsp;Like</button>
+        <button class="social-media-button"><i class="fab fa-twitter"></i> &nbsp;Tweet</button>
+        <button class="social-media-button"><i class="fab fa-pinterest"></i> &nbsp;Pin</button>
+      </div>
 
       </div><!-- .adventure-content -->
 
