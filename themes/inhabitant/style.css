@@ -1066,7 +1066,10 @@ header img {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding-top: 50px; }
+  padding-left: 80px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 100px; }
   .page-id-33 .site-content h1 {
     text-align: left;
     font-weight: bold;
@@ -1076,11 +1079,11 @@ header img {
     color: #2f1339;
     font-size: 2em;
     font-weight: bold; }
+  .page-id-33 .site-content .site-main {
+    padding-right: 80px; }
 
 .page-id-33 .content-area {
-  width: 890px;
-  padding-left: 20px;
-  padding-right: 20px; }
+  width: 890px; }
 
 .page-id-33 ul {
   list-style-type: none;
