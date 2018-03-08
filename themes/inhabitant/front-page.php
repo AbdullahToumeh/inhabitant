@@ -54,9 +54,27 @@ get_header(); ?>
         </div>
       <?php endforeach; wp_reset_postdata(); ?>
     </div>    
-  </div>
+  </div><!-- .home-journal -->
 
+  <!--  -->
   <div class="home-adventures">
+    <h1>Latest Adventures</h1>
+    <div class="adventures-grid">
+    <?php
+      $args = array( 'post_type' => 'adventures', 'order' => 'DESC', 'posts_per_page' => 4 );
+      $adventure_posts = get_posts( $args ); // returns an array of posts
+    ?>
+    <?php foreach ( $adventure_posts as $post ) : setup_postdata( $post ); ?>
+    <div class="adventure-grid-part">
+      <?php the_post_thumbnail( 'large' );  ?>
+      <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+      <a class="read-more-button" href="<?php the_permalink(); ?>">Read More</a>
+    </div>
+    <?php endforeach; wp_reset_postdata(); ?>
+    <a href="#" class="adventure-button">More Adventures</a>
+  </div><!-- .home-adventures -->
+
+    <!-- <div class="home-adventures">
     <h1>Latest Adventures</h1>
     <div class="adventures-grid">
       <div class="canoe-adventure">
@@ -76,7 +94,7 @@ get_header(); ?>
         <a href="#">Read More</a>
       </div>
       <a href="#" class="adventure-button">More Adventures</a>
-    </div>
+    </div> -->
 
 
   </div>
