@@ -74,28 +74,5 @@ get_header(); ?>
     <a href="#" class="adventure-button">More Adventures</a>
   </div><!-- .home-adventures -->
 
-    <!-- <div class="home-adventures">
-    <h1>Latest Adventures</h1>
-    <div class="adventures-grid">
-      <div class="canoe-adventure">
-        <h2>Getting Back to Nature in a Canoe</h2>
-        <a href="#">Read More</a>
-      </div>
-      <div class="beach-adventure">
-        <h2 class="medium-merriweather">A Night with Friends at the Beach</h2>
-        <a href="#">Read More</a>
-      </div>
-      <div class="mountain-adventure">
-        <h2 class="small-merriweather">Taking in the View at Big Mountain</h2>
-        <a href="#">Read More</a>
-      </div>
-      <div class="night-adventure">
-        <h2 class="small-merriweather">Star-gazing at the Night Sky</h2>
-        <a href="#">Read More</a>
-      </div>
-      <a href="#" class="adventure-button">More Adventures</a>
-    </div> -->
-
-
   </div>
 <?php get_footer(); ?>
