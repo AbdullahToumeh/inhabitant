@@ -24,9 +24,9 @@ get_header(); ?>
 					<?php the_content(); ?>
 
       <div class="social-media-links">
-        <button class="social-media-button"><i class="fab fa-facebook-f"></i> &nbsp;Like</button>
-        <button class="social-media-button"><i class="fab fa-twitter"></i> &nbsp;Tweet</button>
-        <button class="social-media-button"><i class="fab fa-pinterest"></i> &nbsp;Pin</button>
+        <button class="social-media-button"><i class="fab fa-facebook-f"></i> Like</button>
+        <button class="social-media-button"><i class="fab fa-twitter"></i> Tweet</button>
+        <button class="social-media-button"><i class="fab fa-pinterest"></i> Pin</button>
       </div>
 
       </div><!-- .adventure-content -->

@@ -29,9 +29,9 @@ get_header(); ?>
 							'after'  => '</div>',
 						) );
 					?>
-					<button class="social-media-button"><i class="fab fa-facebook-f"></i> &nbsp;Like</button>
-					<button class="social-media-button"><i class="fab fa-twitter"></i> &nbsp;Tweet</button>
-					<button class="social-media-button"><i class="fab fa-pinterest"></i> &nbsp;Pin</button>
+					<button class="social-media-button"><i class="fab fa-facebook-f"></i> Like</button>
+					<button class="social-media-button"><i class="fab fa-twitter"></i> Tweet</button>
+					<button class="social-media-button"><i class="fab fa-pinterest"></i> Pin</button>
 				</div><!-- .entry-content -->
 
 				<footer class="entry-footer">

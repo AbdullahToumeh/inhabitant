@@ -590,6 +590,9 @@ ul {
     box-shadow: none;
     font-size: 0.85em;
 
+    svg {
+      margin-right: 5px;
+    }
     &:hover {
       color: white;
       background-color: $color__teal-brand;
@@ -688,6 +691,10 @@ ul {
       border-radius: 0;
       box-shadow: none;
       font-size: 0.85em;
+
+      svg {
+        margin-right: 5px;
+      }
   
       &:hover {
         color: white;

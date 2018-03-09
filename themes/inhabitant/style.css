@@ -1559,6 +1559,8 @@ header img {
   -webkit-box-shadow: none;
           box-shadow: none;
   font-size: 0.85em; }
+  .social-media-button svg {
+    margin-right: 5px; }
   .social-media-button:hover {
     color: white;
     background-color: #248A83;
@@ -1641,6 +1643,8 @@ header img {
     -webkit-box-shadow: none;
             box-shadow: none;
     font-size: 0.85em; }
+    .single-product article .social-media-button svg {
+      margin-right: 5px; }
     .single-product article .social-media-button:hover {
       color: white;
       background-color: #248A83;
@@ -1784,17 +1788,6 @@ header img {
 .error404 .error-404 {
   width: 890px;
   padding: 40px 20px 40px 80px; }
-
-.error404 fieldset {
-  border: none;
-  padding: 0; }
-
-.error404 input.search-field {
-  font-family: "Merriweather", serif;
-  background-color: #f4f4f4;
-  border-radius: 0;
-  padding-top: 5px;
-  padding-bottom: 5px; }
 
 .error404 h1 {
   margin: 0;
