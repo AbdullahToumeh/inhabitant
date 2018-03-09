@@ -5,6 +5,10 @@ $(document).ready(function(){
     $('.search-field').focus();
   })
 
+  $('.header-search .search-field').on('blur', function() {
+    $('.header-search').toggleClass('header-display');
+  })
+
   //if on the home page or about page, add class to header right away
   if ($('.home').length || $('.page-template-about').length || $('.adventures-template-default').length) {
     $('.site-header').addClass('hero-page-header');

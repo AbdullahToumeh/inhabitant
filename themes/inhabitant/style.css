@@ -1018,7 +1018,9 @@ body {
     width: 177px;
     padding-left: 5px;
     padding-top: 6px;
-    padding-bottom: 6px; }
+    padding-bottom: 6px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
     .main-navigation .header-search input:focus {
       outline: none; }
   .main-navigation .header-search {
@@ -1039,7 +1041,23 @@ body {
   to {
     width: 177px; } }
   .main-navigation .header-display {
-    display: none; }
+    width: 0;
+    -webkit-animation-name: slideout;
+            animation-name: slideout;
+    -webkit-animation-duration: 0.7s;
+            animation-duration: 0.7s; }
+
+@-webkit-keyframes slideout {
+  from {
+    width: 177px; }
+  to {
+    width: 0; } }
+
+@keyframes slideout {
+  from {
+    width: 177px; }
+  to {
+    width: 0; } }
   .main-navigation li a {
     padding-left: 15px;
     padding-right: 15px;

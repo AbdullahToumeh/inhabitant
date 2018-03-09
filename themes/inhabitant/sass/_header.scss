@@ -61,6 +61,7 @@
     padding-left: 5px;
     padding-top: 6px;
     padding-bottom: 6px;
+    box-sizing: border-box;
     &:focus {
       outline: none;
     }
@@ -81,7 +82,19 @@
   }
 
   .header-display {
-    display: none;
+    // display: none;
+    width: 0;
+    animation-name: slideout;
+    animation-duration: 0.7s;
+    @keyframes slideout {
+      from {
+        width: 177px;
+      }
+    
+      to {
+        width:0;
+      }
+    }
   }
   
   li a {
