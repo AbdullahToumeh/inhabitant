@@ -6,18 +6,18 @@
 /* Find Us Page */
 
 
-.page-id-33 {
+.page-template-default {
   .site-content {
     display: flex;
     flex-direction: row;
-    // padding-left: 80px;
-    // padding-right: 30px;
-    // padding-top: 50px;
 
     h1 {
       text-align: left;
       font-weight: bold;
       padding-bottom: 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 2.4em;
     }
 
     h2 {
@@ -28,9 +28,10 @@
       }
 
     .site-main {
-      padding-left: 80px;
-      padding-right: 20px;
-      padding-top: 50px;
+      padding: 50px 20px 0 80px;
+      // padding-left: 80px;
+      // padding-right: 20px;
+      // padding-top: 50px;
     }
   }
 
@@ -214,6 +215,9 @@ ul {
     border: 0;
     margin: 0;
     text-align: center;
+    font-family: $font__novecento;
+    text-transform: uppercase;
+    letter-spacing: 1px;
   }
 }
 
@@ -319,6 +323,7 @@ ul {
     font-weight: bold;
     font-size: 3em;
     letter-spacing: 2px;
+    text-transform: uppercase;
   }
 
   h2 {
@@ -380,10 +385,11 @@ ul {
       background-color: $color__teal-brand;
       padding: 10px 20px;
       max-width: 550px;
-      font-size: 2.2em;
-      line-height: 1.2;
+      font-size: 2.5em;
+      line-height: 1;
       font-weight: bold;
       text-align: left;
+      font-family: $font__novecento;
     }
   
     .entry-meta {
@@ -613,6 +619,10 @@ ul {
     padding-bottom: 10px;
     font-weight: bold;
     font-size: 2.4em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $font__novecento;
+    letter-spacing: 1px;
   }
   .taxonomy-description {
     text-align: center;
@@ -641,7 +651,10 @@ ul {
       color: $color__orange-brand;
       font-weight: bold;
       line-height: 1.25;
+      text-transform: uppercase;
       padding-bottom: 0;
+      letter-spacing: 1.5px;
+      font-size: 2.2em;
     }
 
     h3 {
@@ -711,7 +724,9 @@ ul {
     padding: 0;
     font-weight: bold;
     font-size: 2.3em;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: $font__novecento;
   }
 
   h4 {
@@ -805,6 +820,10 @@ ul {
     h1 {
       font-weight: bold;
       padding: 0;
+      text-align: center;
+      font-family: $font__novecento;
+      text-transform: uppercase;
+      font-size: 2.5em;
     }
   }
 }
