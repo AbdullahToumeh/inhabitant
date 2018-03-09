@@ -1,16 +1,31 @@
 //---------------------------------------------------------
 /* Search form */
 
-fieldset {
+.header-search fieldset {
   border: none;
   padding: 0;
 
   input.search-field {
-    background-color: #f4f4f4;
+    background-color: white;
     border-radius: 0;
+    width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-size: 0.9em;
+    font-family: $font__novecento;
   }
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+input.search-field {
+  font-family: $font__merriweather;
+  background-color: #f4f4f4;
+  border-radius: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 //--------------------------------------------------------
@@ -20,8 +35,6 @@ fieldset {
   .site-content {
     display: flex;
     flex-direction: row;
-    margin-left: 40px;
-    margin-right: 40px;
     padding-bottom: 50px;
   }
   .page-header {
@@ -35,17 +48,20 @@ fieldset {
       font-size: 2.5em;
       letter-spacing: 1px;
       padding: 0;
+      text-transform: uppercase;
+      font-family: $font__novecento;
     }
   }
   .content-area {
     width: 890px;
-    padding-left: 20px;
+    padding-left: 80px;
     padding-right: 20px;
   }
 
   .entry-title {
     margin-top: 10px;
     margin-bottom: 0; 
+    font-size: 3em;
   }
 
   .entry-header a {

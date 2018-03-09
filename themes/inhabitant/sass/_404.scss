@@ -5,7 +5,18 @@
   }
   .error-404 {
     width: 890px;
-    padding: 40px;
+    padding: 40px 20px 40px 80px;
+  }
+  fieldset {
+    border: none;
+    padding: 0;
+  }
+  input.search-field {
+    font-family: $font__merriweather;
+    background-color: #f4f4f4;
+    border-radius: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
   }
   h1 {
     margin: 0;
@@ -14,6 +25,8 @@
     text-align: left;
     font-size: 2.3em;
     padding-bottom: 10px;
+    text-transform: uppercase;
+    font-family: $font__novecento;
   }
   .page-content {
     margin: 0;
