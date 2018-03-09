@@ -71,7 +71,7 @@ get_header(); ?>
       <a class="read-more-button" href="<?php the_permalink(); ?>">Read More</a>
     </div>
     <?php endforeach; wp_reset_postdata(); ?>
-    <a href="#" class="adventure-button">More Adventures</a>
+    <a href="<?php echo esc_url( home_url( '/adventures' ) ); ?>" class="adventure-button">More Adventures</a>
   </div><!-- .home-adventures -->
 
   </div>
