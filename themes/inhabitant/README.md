@@ -1,6 +1,6 @@
-# RED Starter
+# Inhabitent
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+A WordPress starter theme for the Inhabitent website, forked from Underscores.
 
 ## Installation
 

@@ -989,7 +989,8 @@ body {
   border: 0;
   position: absolute; }
   .hero-page-header .main-navigation a, .hero-page-header .main-navigation .fa-search {
-    color: white; }
+    color: white;
+    text-shadow: 1px 1px 4px #404040; }
     .hero-page-header .main-navigation a:hover, .hero-page-header .main-navigation .fa-search:hover {
       color: #f0e4d1; }
   .hero-page-header .main-navigation .header-search input {
