@@ -1,6 +1,6 @@
 # Inhabitent README
 
-![Image of Inhabitent](inhabitent-gif.gif)
+![Image of Inhabitent](themes/images/inhabitent-gif.gif)
 
 Project at RED Academy creating a multi-page website with a blog and many other features for a theoretical company called Inhabitent. Wordpress is used as a content management system.
 
